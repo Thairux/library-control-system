@@ -10,8 +10,7 @@
 <body style="background-color: darkgreen; color: white">
 
 <!--FETCH NAVBAR -->
-<?php include BASE_PATH . '/includes/navbar.php';
-$active_class = "librarian"; ?>
+<?php include BASE_PATH . '/includes/navbar.php'; ?>
 
 
 <!--page content-->
@@ -29,7 +28,6 @@ $active_class = "librarian"; ?>
                            name="email">
                     <label for="floatingInput">Email address</label>
                 </div>
-
                 <div class="form-floating">
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
                            name="password">

@@ -6,15 +6,14 @@
 
     <!--Fetch Header file-->
     <?php
-    $active_class  = "home";
     const BASE_PATH = "http://localhost/denmau";
     require(BASE_PATH . '/includes/header.php');
     ?>
 </head>
 <body>
 
-<!--FETCH NAVBAR -->
-<?php require BASE_PATH . '/includes/navbar.php'; ?>
+<!--Fetch Navbar -->
+<?php require(BASE_PATH . '/includes/navbar.php'); ?>
 
 <main id="home">
 
@@ -197,8 +196,8 @@
 
 </main>
 
-<!-- FETCH FOOTER -->
-<?php require BASE_PATH . '/includes/footer.php' ?>
+<!-- footer & JavaScript Files -->
+<?php require './includes/footer.php' ?>
 
 </body>
 
